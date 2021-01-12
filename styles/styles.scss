@@ -1,0 +1,71 @@
+body {
+  font-size: 20px;
+  margin: 80px 100px;
+}
+
+div {
+  display: flex;
+  width: 400px;
+  font-size: 25px;
+  margin: 28px 0px;
+}
+
+input,
+button {
+  font-size: 18px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 5px;
+}
+
+button,
+img {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  width: 400px;
+}
+
+ul.todo-list {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 15px;
+}
+
+li:last-child {
+  border-bottom: 1px solid black;
+}
+
+span {
+  flex: 1;
+  order: 1;
+  padding-left: 20px;
+}
+
+.icon {
+  order: 2;
+  width: 18px;
+  height: 18px;
+  padding-top: 4px;
+}
+
+input.checkbox {
+  margin-top: 6px;
+  order: 0;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: rgb(150, 147, 147);
+}
